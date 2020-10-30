@@ -32,7 +32,9 @@ FILE_INPUT = None
 PATH = os.path.dirname(os.path.abspath(__file__))
 #PATH_DRIVER = r"E:\Program Files (x86)\Mozilla Firefox\firefox.exe"
 platform = sys.platform
-PATH_GECKODRIVER = os.path.join(PATH , "geckodriver_" + "windows" if platform.find("win")>=0  else "linux" ) 
+PATH_GECKODRIVER = os.path.join(PATH , 
+                    "geckodriver_" + ("windows" if platform.find("win")>=0 
+                    else ("linux" if platform.find("linux")>=0 else 'mac'   ) ) )
 print PATH_GECKODRIVER
 os.environ["PATH"] +=   ("\\" if platform.find("win")>=0  else ":" )     + PATH_GECKODRIVER
 

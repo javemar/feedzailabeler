@@ -1,0 +1,4 @@
+2020-10-30 09:58:21,711 NumExpr defaulting to 4 threads.
+2020-10-30 09:58:21,716 Start process with 2 rows
+2020-10-30 09:58:30,160 LATAM-PSP_315349587:tx wasn't found,Message: 
+2020-10-30 09:58:34,201 LATAM-PSP_347198450:tx wasn't found,Message: 

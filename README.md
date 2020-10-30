@@ -1,6 +1,6 @@
 # feedzailabeler
 
-Foobar is a Python library for automatiaze the process of change of status in feedaiz
+FeedzaiLabeler is a Python library for automataize the process of change of status in CM
 
 ## Installation
 
