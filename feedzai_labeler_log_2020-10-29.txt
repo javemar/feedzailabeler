@@ -1,0 +1,97 @@
+2020-10-29 21:55:55,197 NumExpr defaulting to 4 threads.
+2020-10-29 21:55:55,230 Start process with 95 rows
+2020-10-29 21:56:06,577 LATAM-PSP_315349587:tx wasn't found,Message: 
+2020-10-29 21:56:10,620 LATAM-PSP_330596474:tx wasn't found,Message: 
+2020-10-29 21:56:14,642 LATAM-PSP_347198450:tx wasn't found,Message: 
+2020-10-29 21:56:18,701 LATAM-PSP_365296777:tx wasn't found,Message: 
+2020-10-29 21:56:25,929 LATAM-PSP_573233738:change from Unreviewed to fraud
+2020-10-29 21:56:32,313 LATAM-PSP_572571888:change from Unreviewed to fraud
+2020-10-29 21:56:38,847 LATAM-PSP_572262333:change from Unreviewed to fraud
+2020-10-29 21:56:45,167 LATAM-PSP_571119870:change from Unreviewed to fraud
+2020-10-29 21:56:51,238 LATAM-PSP_571245860:change from Unreviewed to fraud
+2020-10-29 21:56:57,236 LATAM-PSP_572487873:change from Unreviewed to fraud
+2020-10-29 21:57:03,150 LATAM-PSP_573049402:change from Unreviewed to fraud
+2020-10-29 21:57:11,239 LATAM-PSP_573132576:change from Unreviewed to fraud
+2020-10-29 21:57:17,279 LATAM-PSP_573103442:change from Unreviewed to fraud
+2020-10-29 21:57:23,198 LATAM-PSP_572228701:change from Unreviewed to fraud
+2020-10-29 21:57:29,150 LATAM-PSP_572258128:change from Unreviewed to fraud
+2020-10-29 21:57:35,452 LATAM-PSP_572244019:change from Unreviewed to fraud
+2020-10-29 21:57:41,332 LATAM-PSP_572230005:change from Unreviewed to fraud
+2020-10-29 21:57:47,385 LATAM-PSP_572246315:change from Unreviewed to fraud
+2020-10-29 21:57:53,385 LATAM-PSP_572228957:change from Unreviewed to fraud
+2020-10-29 21:57:59,332 LATAM-PSP_572246852:change from Unreviewed to fraud
+2020-10-29 21:58:05,837 LATAM-PSP_570026608:change from Unreviewed to fraud
+2020-10-29 21:58:10,284 LATAM-PSP_1167101033:tx wasn't found,Message: 
+2020-10-29 21:58:16,369 LATAM-PSP_572262564:change from Unreviewed to fraud
+2020-10-29 21:58:21,066 LATAM-PSP_1168677676:tx wasn't found,Message: 
+2020-10-29 21:58:25,227 LATAM-PSP_544154186:tx wasn't found,Message: 
+2020-10-29 21:58:29,440 LATAM-PSP_543862867:tx wasn't found,Message: 
+2020-10-29 21:58:33,540 LATAM-PSP_1166013511:tx wasn't found,Message: 
+2020-10-29 21:58:37,649 LATAM-PSP_1168213536:tx wasn't found,Message: 
+2020-10-29 21:58:41,758 LATAM-PSP_1163774957:tx wasn't found,Message: 
+2020-10-29 21:58:45,795 LATAM-PSP_1168065553:tx wasn't found,Message: 
+2020-10-29 21:58:49,854 LATAM-PSP_1168213541:tx wasn't found,Message: 
+2020-10-29 21:58:55,924 LATAM-PSP_528455466:change from Unreviewed to fraud
+2020-10-29 21:59:00,529 LATAM-PSP_561006640:tx wasn't found,Message: 
+2020-10-29 21:59:06,643 LATAM-PSP_528977218:change from Unreviewed to fraud
+2020-10-29 21:59:11,164 LATAM-PSP_1168144683:tx wasn't found,Message: 
+2020-10-29 21:59:16,886 LATAM-PSP_566179947:change from Unreviewed to fraud
+2020-10-29 21:59:23,273 LATAM-PSP_566108917:change from Unreviewed to fraud
+2020-10-29 21:59:29,395 LATAM-PSP_566111151:change from Unreviewed to fraud
+2020-10-29 21:59:35,344 LATAM-PSP_566712290:change from Unreviewed to fraud
+2020-10-29 21:59:41,528 LATAM-PSP_566598732:change from Unreviewed to fraud
+2020-10-29 21:59:47,611 LATAM-PSP_571965069:change from Unreviewed to fraud
+2020-10-29 21:59:53,643 LATAM-PSP_572152924:change from Unreviewed to fraud
+2020-10-29 22:00:00,520 LATAM-PSP_531613261:change from Unreviewed to fraud
+2020-10-29 22:00:07,125 LATAM-PSP_566170202:change from Unreviewed to fraud
+2020-10-29 22:00:12,994 LATAM-PSP_565501016:change from Unreviewed to fraud
+2020-10-29 22:00:17,469 LATAM-PSP_432769178:tx wasn't found,Message: 
+2020-10-29 22:00:23,266 LATAM-PSP_566672442:change from Unreviewed to fraud
+2020-10-29 22:00:27,817 LATAM-PSP_432768656:tx wasn't found,Message: 
+2020-10-29 22:00:33,955 LATAM-PSP_566671768:change from Unreviewed to fraud
+2020-10-29 22:00:38,589 LATAM-PSP_441993080:tx wasn't found,Message: 
+2020-10-29 22:00:44,409 LATAM-PSP_566122258:change from Unreviewed to fraud
+2020-10-29 22:00:50,469 LATAM-PSP_565831775:change from Unreviewed to fraud
+2020-10-29 22:00:54,937 LATAM-PSP_1158694372:tx wasn't found,Message: 
+2020-10-29 22:00:58,844 LATAM-PSP_1161438617:tx wasn't found,Message: 
+2020-10-29 22:01:04,423 LATAM-PSP_572169658:change from Waiting to fraud
+2020-10-29 22:01:10,408 LATAM-PSP_494707123:change from Unreviewed to fraud
+2020-10-29 22:01:16,440 LATAM-PSP_500996617:change from Unreviewed to fraud
+2020-10-29 22:01:21,051 LATAM-PSP_490478865:tx wasn't found,Message: 
+2020-10-29 22:01:24,955 LATAM-PSP_501003510:tx wasn't found,Message: 
+2020-10-29 22:01:31,256 LATAM-PSP_525767071:change from Unreviewed to fraud
+2020-10-29 22:01:37,437 LATAM-PSP_525595617:change from Unreviewed to fraud
+2020-10-29 22:01:41,955 LATAM-PSP_549985974:tx wasn't found,Message: 
+2020-10-29 22:01:46,050 LATAM-PSP_549785173:tx wasn't found,Message: 
+2020-10-29 22:01:50,092 LATAM-PSP_541750237:tx wasn't found,Message: 
+2020-10-29 22:01:54,161 LATAM-PSP_548220561:tx wasn't found,Message: 
+2020-10-29 22:01:58,256 LATAM-PSP_555553944:tx wasn't found,Message: 
+2020-10-29 22:02:02,324 LATAM-PSP_557462765:tx wasn't found,Message: 
+2020-10-29 22:02:08,230 LATAM-PSP_572179667:change from Unreviewed to fraud
+2020-10-29 22:02:15,020 LATAM-PSP_571878064:change from Unreviewed to fraud
+2020-10-29 22:02:21,574 LATAM-PSP_571847586:change from Unreviewed to fraud
+2020-10-29 22:02:28,071 LATAM-PSP_572237872:change from Unreviewed to fraud
+2020-10-29 22:02:34,359 LATAM-PSP_572239463:change from Unreviewed to fraud
+2020-10-29 22:02:41,072 LATAM-PSP_572241070:change from Unreviewed to fraud
+2020-10-29 22:02:47,470 LATAM-PSP_572178194:change from Unreviewed to fraud
+2020-10-29 22:02:53,555 LATAM-PSP_571977586:change from Unreviewed to fraud
+2020-10-29 22:02:59,538 LATAM-PSP_572813563:change from Unreviewed to fraud
+2020-10-29 22:03:05,570 LATAM-PSP_572676995:change from Unreviewed to fraud
+2020-10-29 22:03:10,106 LATAM-PSP_1168462366:tx wasn't found,Message: 
+2020-10-29 22:03:14,061 LATAM-PSP_1148069219:tx wasn't found,Message: 
+2020-10-29 22:03:18,207 LATAM-PSP_465377746:tx wasn't found,Message: 
+2020-10-29 22:03:25,158 LATAM-PSP_504181885:change from Unreviewed to fraud
+2020-10-29 22:03:29,720 LATAM-PSP_386945781:tx wasn't found,Message: 
+2020-10-29 22:03:33,630 LATAM-PSP_392734237:tx wasn't found,Message: 
+2020-10-29 22:03:37,540 LATAM-PSP_420294123:tx wasn't found,Message: 
+2020-10-29 22:03:41,448 LATAM-PSP_422479367:tx wasn't found,Message: 
+2020-10-29 22:03:45,348 LATAM-PSP_453359413:tx wasn't found,Message: 
+2020-10-29 22:03:49,241 LATAM-PSP_459753680:tx wasn't found,Message: 
+2020-10-29 22:03:53,128 LATAM-PSP_464520903:tx wasn't found,Message: 
+2020-10-29 22:03:58,614 LATAM-PSP_512832846:change from Unreviewed to fraud
+2020-10-29 22:04:04,471 LATAM-PSP_526968121:change from Unreviewed to fraud
+2020-10-29 22:04:08,900 LATAM-PSP_559821932:tx wasn't found,Message: 
+2020-10-29 22:04:14,636 LATAM-PSP_571047740:change from Unreviewed to fraud
+2020-10-29 22:04:19,440 LATAM-PSP_571795280:It's not possible to change from Fraud to fraud
+2020-10-29 22:04:24,205 LATAM-PSP_571857272:It's not possible to change from Fraud to fraud
+2020-10-29 22:04:29,001 LATAM-PSP_572161491:It's not possible to change from Fraud to fraud
