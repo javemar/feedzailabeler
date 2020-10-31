@@ -358,7 +358,8 @@ def update_labels(file_input,driver, logging=logging):
 		change_status(datos.loc[index,"date_creation"],datos.loc[index,"external_id"], 
 								datos.loc[index,"type_label"],datos.loc[index,"reason"], 
 								datos.loc[index,"notes"],driver)
-									
+		if (index % 100.0) == 100:
+            time.sleep(10)
 """	
 external_id  = "LATAM-PSP_519625363"
 date = "2020/08/30  06:36:05"
