@@ -335,32 +335,34 @@ def wait(tag, by, driver, seconds, condition = EC.presence_of_element_located):
 	
 def update_labels(file_input,driver, logging=logging):
 
-	columns_test = ["orden_id",	"date_creation","type_label","reason","notes"]
-	datos = pd.read_csv(file_input, sep=";") 
-	
-	test = filter(lambda x: not x,   map( lambda x: x in datos.columns, columns_test ) )
-	
-	assert len(test) == 0, 'You need to include all of the following columns: {}'.format(columns_test)
-	
-	(datos["orden_id"]+ 1).head()
-	(pd.to_datetime(datos["date_creation"])).head()
-		
-	logging.info("Start process with {} rows".format(datos.shape[0]) )
-	datos["external_id"] = "LATAM-PSP_" + datos["orden_id"].astype(str).str.replace("\..+", "")
-	pagina_web_search = "https://payu-cm.feedzai.com/search"
-	
-	
-	driver.get(pagina_web_search)
-	#time.sleep(4)
-	
-	for index in datos.index:
-		print index
-		change_status(datos.loc[index,"date_creation"],datos.loc[index,"external_id"], 
-								datos.loc[index,"type_label"],datos.loc[index,"reason"], 
-								datos.loc[index,"notes"],driver)
-        if (index % 70) == 0:
-            print "sleeping 10 senconds..."    
-            time.sleep(10)
+    columns_test = ["orden_id",	"date_creation","type_label","reason","notes"]
+    datos = pd.read_csv(file_input, sep=";") 
+
+    test = filter(lambda x: not x,   map( lambda x: x in datos.columns, columns_test ) )
+
+    assert len(test) == 0, 'You need to include all of the following columns: {}'.format(columns_test)
+
+    (datos["orden_id"]+ 1).head()
+    (pd.to_datetime(datos["date_creation"])).head()
+        
+    logging.info("Start process with {} rows".format(datos.shape[0]) )
+    datos["external_id"] = "LATAM-PSP_" + datos["orden_id"].astype(str).str.replace("\..+", "")
+    pagina_web_search = "https://payu-cm.feedzai.com/search"
+
+
+    driver.get(pagina_web_search)
+    #time.sleep(4)
+    filtro_tiempo = 50
+    for index in datos.index:
+        print index
+        change_status(datos.loc[index,"date_creation"],datos.loc[index,"external_id"], 
+                                datos.loc[index,"type_label"],datos.loc[index,"reason"], 
+                                datos.loc[index,"notes"],driver)
+        if (index % filtro_tiempo) == filtro_tiempo-1:
+            print "sleeping 4 senconds..."    
+            time.sleep(4)
+            
+            
 """	
 external_id  = "LATAM-PSP_519625363"
 date = "2020/08/30  06:36:05"
