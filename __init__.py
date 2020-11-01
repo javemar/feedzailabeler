@@ -447,7 +447,13 @@ class FeedzaiLabeler(tk.Tk, object):
 			print str(error)
 			#path_driver = PATH_DRIVER
 			#self.driver = webdriver.Firefox( firefox_binary=path_driver)
-			self.driver = webdriver.Firefox()
+			
+			if platform.find("win")>=0:
+				path_driver  = os.path.join( os.path.dirname(os.path.expandvars("%SystemRoot%")) , 
+                                                r"Program Files (x86)\Mozilla Firefox\firefox.exe"    )
+				self.driver = webdriver.Firefox( firefox_binary=path_driver)
+			else:                                
+				self.driver = webdriver.Firefox()
 			
 			pagina_web = "https://payu.okta-emea.com/app/UserHome"
 			self.driver.get(pagina_web)
