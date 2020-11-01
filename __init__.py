@@ -358,7 +358,7 @@ def update_labels(file_input,driver, logging=logging):
 		change_status(datos.loc[index,"date_creation"],datos.loc[index,"external_id"], 
 								datos.loc[index,"type_label"],datos.loc[index,"reason"], 
 								datos.loc[index,"notes"],driver)
-        if (index % 100.0) == 100:
+        if (index % 70) == 0:
             print "sleeping 10 senconds..."    
             time.sleep(10)
 """	
