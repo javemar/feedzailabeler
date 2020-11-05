@@ -1657,3 +1657,9 @@ webdriverClickElement@chrome://marionette/content/interaction.js:179:31
 JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
 JavaScript warning: https://tableau.payu.com/vizql/v_202012004271803/javascripts/vqlweb.js, line 73: unreachable code after return statement
 JavaScript warning: https://tableau.payu.com/vizql/v_202012004271803/javascripts/vqlweb.js, line 73: unreachable code after return statement
+1604544181080	geckodriver	INFO	Listening on 127.0.0.1:36882
+1604544182135	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilet0DN5k"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604544197658	Marionette	INFO	Listening on port 35266
+1604544197704	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604544209485	Marionette	INFO	Stopped listening on port 35266
