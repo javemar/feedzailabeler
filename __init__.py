@@ -36,7 +36,7 @@ PATH_GECKODRIVER = os.path.join(PATH ,
                     "geckodriver_" + ("windows" if platform.find("win")>=0 
                     else ("linux" if platform.find("linux")>=0 else 'mac'   ) ) )
 print PATH_GECKODRIVER
-os.environ["PATH"] +=   ("\\" if platform.find("win")>=0  else ":" )     + PATH_GECKODRIVER
+os.environ["PATH"] +=   (";" if platform.find("win")>=0  else ":" )     + PATH_GECKODRIVER
 
 print os.environ["PATH"]
 
@@ -451,9 +451,20 @@ class FeedzaiLabeler(tk.Tk, object):
 			#self.driver = webdriver.Firefox( firefox_binary=path_driver)
 			
 			if platform.find("win")>=0:
-				path_driver  = os.path.join( os.path.dirname(os.path.expandvars("%SystemRoot%")) , 
-                                                r"Program Files (x86)\Mozilla Firefox\firefox.exe"    )
-				self.driver = webdriver.Firefox( firefox_binary=path_driver)
+				options = [r"Program Files (x86)\Mozilla Firefox\firefox.exe",
+                            r"Program Files\Mozilla Firefox\firefox.exe",
+                            r"Program File (x86)\Mozilla Firefox\firefox.exe",
+                            r"Program File\Mozilla Firefox\firefox.exe"]
+				for option in options:
+					try:
+						path_driver  = os.path.join( os.path.dirname(os.path.expandvars("%SystemRoot%")) , 
+                                                option    )
+						self.driver = webdriver.Firefox( firefox_binary=path_driver)
+                        
+					except:
+						pass
+					break
+				self.driver 
 			else:                                
 				self.driver = webdriver.Firefox()
 			
