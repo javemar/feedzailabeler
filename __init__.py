@@ -460,10 +460,11 @@ class FeedzaiLabeler(tk.Tk, object):
 						path_driver  = os.path.join( os.path.dirname(os.path.expandvars("%SystemRoot%")) , 
                                                 option    )
 						self.driver = webdriver.Firefox( firefox_binary=path_driver)
+                        break
                         
 					except:
 						pass
-					break
+					
 				self.driver 
 			else:                                
 				self.driver = webdriver.Firefox()
