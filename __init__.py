@@ -337,6 +337,7 @@ def update_labels(file_input,driver, logging=logging):
 
     columns_test = ["orden_id",	"date_creation","type_label","reason","notes"]
     datos = pd.read_csv(file_input, sep=";") 
+    datos["reason"].fillna("", inplace=True)
 
     test = filter(lambda x: not x,   map( lambda x: x in datos.columns, columns_test ) )
 
